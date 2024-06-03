@@ -1,5 +1,14 @@
 #!/bin/bash
 
+##############################################
+# Description: Purpose To restart a service, ensuring it runs smoothly.
+# Author : Md Rashid Ahmad
+# Components:
+   # sudo systemctl restart $SERVICE_NAME: Restarts the specified service.
+   # systemctl is-active --quiet $SERVICE_NAME: Checks if the service is active.
+##############################################
+
+
 # Function to restart a web server
 
 restart_web_server() {
